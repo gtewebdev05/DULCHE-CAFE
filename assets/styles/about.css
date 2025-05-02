@@ -1,0 +1,84 @@
+
+
+.about-header{
+    padding: 40px 20px 20px;
+
+}
+.about-header h4{
+    color: #ccc;
+    font-style: italic;
+    margin-top: 1.6rem;
+    margin-bottom: 30px;
+    margin-left: 39rem;
+}
+.about-header h1{
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 36rem;
+}
+.divider{
+    margin: 20px auto;
+    width: 60px;
+    height: 2px;
+    background-color: #ccc;
+}
+  .about-container{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+        gap: 20px;
+        justify-content: center;
+}
+.about-card{
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+}
+.about-card img{
+    width: 100%;
+    height: auto;
+}
+.about-card h2{
+    margin: 16px;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.about-card p{
+    margin: 0 16px 16px 16px;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #ccc
+}
+.opening-hours{
+    background-color: #1f1f1f;
+    border-radius: 4px;
+    padding: 20px;
+    max-width: 300px;
+    color: #fff;
+
+}
+.opening-hours h2{
+    font-size: 20px;
+    text-transform: uppercase;
+    border-bottom: 2px solid;
+    padding-bottom: 10px;
+    margin-bottom: 10px
+}
+.hours-list{
+    list-style: none;
+    padding: 0;
+}
+.hours-list li{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    border-bottom: 1px solid #333;
+}
+.about-call p{
+    margin-top: 20px;
+    font-weight: bold;
+    color: #fff;
+}
